@@ -1,0 +1,32 @@
+{
+  "name": "example-with-nextjs-typescript",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sqlitecloud/drivers": "^1.0.122",
+    "next": "14.1.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "prisma": "^5.15.0",
+    "typescript": "^5"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "arrowParens": "avoid",
+    "printWidth": 240
+  }
+}
